@@ -1,4 +1,4 @@
-const urlToFetch = "http://ergast.com/api/f1/driverstandings/1";
+const urlToFetch = "https://ergast.com/api/f1/driverstandings/1";
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("answer-text"));
 const counterValue = document.getElementById("question-counter");
